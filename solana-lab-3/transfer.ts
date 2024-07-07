@@ -16,10 +16,9 @@ const sender = getKeypairFromEnvironment("SECRET_KEY");
 const connection = new Connection(clusterApiUrl("devnet"));
 
 console.log(
-  `� Loaded our keypair securely, using an env file! Our public key is: $
-{sender.publicKey.toBase58()}`
+  `� Loaded our keypair securely, using an env file! \n Our public key is: ${sender.publicKey.toBase58()}`
 );
-const recipient = new PublicKey("4g8QnwiSYFAXfXwitmA3KxBU6qc2eybqinXWoV2steWz");
+const recipient = new PublicKey("BnGZm5nFTAGBqJF9zGhporYvA4vTXHG1zfnMWJGXVuh");
 
 console.log(` Attempting to send 0.01 SOL to ${recipient.toBase58()}...`);
 
