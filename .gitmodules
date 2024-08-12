@@ -1,0 +1,3 @@
+[submodule "Solana-Journal-dapp"]
+	path = Solana-Journal-dapp
+	url = https://github.com/cosminmarian53/Solana-Journal
